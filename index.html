@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,21 +7,91 @@
   </head>
   <body>
     <header>Erneut</header>
+    <section class="about">
+      <h1>Erneut</h1>
+      <p>
+        Erneut is a clean single-page landing that showcases essential front-end
+        technologies. It uses a responsive design and an interactive slider to
+        present tools like SCSS, HTML, JavaScript, and Swiper. The page serves
+        as a quick overview of a modern web development stack.
+      </p>
+    </section>
     <section class="tech-stack">
+      <h2>Technologies Used</h2>
       <div class="card">
-        <button><img src="" alt=""/></button>
-        <img src="" alt=""/>
-        <button<img src="" alt=""/>button>
-        <p class="card-description">а
-        </p>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="public/sass-logo.png" alt="" />
+              <p class="card-description">
+                SCSS is an extended version of CSS that adds variables, nested
+                styles, functions, and mixins to interface development. It is
+                fully compatible with regular CSS but makes writing code much
+                faster, cleaner, and easier to maintain. All SCSS code is
+                automatically compiled into a standard CSS file that web
+                browsers can read without any issues.
+              </p>
+            </div>
+            <div class="swiper-slide">
+              <img src="public/html-logo.png" alt="" />
+              <p class="card-description">
+                HTML (HyperText Markup Language) is the standard markup language
+                used to create the structure and skeleton of web pages. It
+                consists of tags that tell the browser where headings, lists,
+                images, links, and plain text are located on the page. HTML is
+                solely responsible for the skeleton and content of the site,
+                while the appearance (styles) is configured using CSS.
+              </p>
+            </div>
+            <div class="swiper-slide">
+              <img src="public/js-logo.png" alt="" />
+              <p class="card-description">
+                JavaScript (JS) is a multi-paradigm programming language that
+                brings web pages to life by making them interactive. It runs
+                directly in the browser and handles logic: processing clicks,
+                submitting forms without reloading, animations, working with
+                APIs, and updating content on the fly. Together with HTML
+                (skeleton) and CSS (appearance), JavaScript is the third
+                fundamental component of front-end development.
+              </p>
+            </div>
+            <div class="swiper-slide">
+              <img src="public/swiper-logo.png" alt="" />
+              <p class="card-description">
+                Swiper is the most popular and modern JavaScript plugin for
+                creating responsive touch sliders on websites and mobile apps.
+                It works without third-party libraries (like jQuery) and has
+                built-in support for gestures, swipes, smooth acceleration, and
+                3D effects. Swiper easily integrates with all popular frameworks
+                (Vue, React, Angular) and is used on millions of websites to
+                create carousels, galleries, and responsive blocks.
+              </p>
+            </div>
+          </div>
+
+          <button class="swiper-button-prev">
+            <img src="public/arrow-left.svg" alt="" />
+          </button>
+          <button class="swiper-button-next">
+            <img src="public/arrow-right.svg" alt="" />
+          </button>
+        </div>
       </div>
     </section>
     <footer>
-        <h2>Erneut</h2>
-        <ul>
-            <li><a href="https://github.com/Dankewu0/Erneut"><img src="public/github-logo.png" alt="github"/></a></li>
-            <li><a href=""><img src="public/github-pages.png" alt="github pages"/></a></li>
-        </ul>
+      <h2>Erneut</h2>
+      <ul>
+        <li>
+          <a href="https://github.com/Dankewu0/Erneut"
+            ><img src="public/github-logo.png" alt="github"
+          /></a>
+        </li>
+        <li>
+          <a href="https://dankewu0.github.io/Erneut/"
+            ><img src="public/github-pages.png" alt="github pages"
+          /></a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
