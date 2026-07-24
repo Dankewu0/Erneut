@@ -3,15 +3,24 @@ header {
   flex-direction: row;
   max-width: 100%;
   width: 100%;
-  padding: 4px 4px 4px 4px;
-  /* ГЛАССМОРФИЗМ */
-  background: rgba(0, 0, 0, 0.35);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 60px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
-  align-items: center;
+  background: rgba(128, 128, 128, 0.01);
+  backdrop-filter: blur(10px);
+  font-size: 24px;
   justify-content: space-between;
-  z-index: 1000;
+  align-items: center;
+  color: white;
+  ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+    img {
+      max-height: 40px;
+      width: auto;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
 }
